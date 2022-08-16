@@ -1,19 +1,295 @@
 .banner-principal-decorativo
   &-1
+    animation: float3 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 488px    
+    top: 9%
+    right: 10%
+
+  &-2
+    animation: float2 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 100px    
+    top: 30%
+    right: 78%
+
+  &-3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    width: 145px    
+    top: 9%
+    right: 10%
+
+  &-4
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    width: 55px    
+    top: 47%
+    right: 10%            
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
+  50%
+    transform: rotate(10deg)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translatex(20px)
+  50%
+    transform: rotate(5deg)
+  100%
+    transform: translatex(0px)  
+
+@keyframes float3
+  0% 
+    transform: rotate(10deg)
+  100%
+    transform: scale(0.9)
+
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/5.png") !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto     
+
+.cajon.color-primario
+  background-color:  #D6EFFF 
+
+.cajon.color-primario::before
+  background-color: #73BAE8  
+  
+.jt
+  display: flex
+  justify-content: center
+  align-items: center  
+
+.bg1
+  background-color: #A6D3FC 
+  border: 10px solid white
+  border-radius: 30px   
+.bg2
+  background-color: #C2F3EB 
+  border: 10px solid white
+  border-radius: 30px  
+
+.crd
+  width: 100%
+  position: relative
+  padding: 2rem
+  &--100
+    height: 100%
+  &.crd-img
+    background-image: url('../assets/curso/temas/img11.png')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 0px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.horizontal-scroll
+  align-items: stretch !important
+
+.bgy
+  background-color: #FFF4C9   
+
+.ts
+  color: $color-sistema-texto !important
+
+.slyder-f__btn
+  background-color: #FEE734   
+
+.p-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+.cajon.color-secundario
+  background-color: #C2F3EB
+.cajon.color-secundario::before
+  background-color: #8AE3D6
+
+.slyder-g
+  display: flex
+  &__main
+    width: 84%
+
+  &__btn
+    width: 8%
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+    i
+      font-size: 4rem    
+
+.bg3
+  background-image: url('../assets/curso/temas/img19.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  border-radius: 30px
+  box-shadow: 0px 5px 12px #7070701c           
+
+.tarjeta.color-primario
+  background-image: url('../assets/curso/temas/img21.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center    
+
+.color-fondo-text
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 75%
+    bottom: 0
+    left: 47%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #FFF4C9 
+
+.hr
+  border-bottom: 2px solid #09599C
+
+.bg4
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/img35.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+
+.bg5
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -20rem
+    width: calc( 100% + 96px )
+    height: 180%       
+    background-image: url('../assets/curso/temas/img37.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center
+
+.up
+  z-index: 2 !important    
+
+.bg6
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 12rem
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/img39.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center  
+
+.bg7
+  background-color: #F3F9FF !important
+  box-shadow: 0px 5px 12px #7070701c   
+
+.brad
+  border-radius: 30px !important  
+
+.bg8
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 4rem
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/img39.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center  
+
+.b
+  color: #0082EF
+
+.lista-ol--cuadro__vineta
+  background-color:  #0082EF   
+
+.bg9
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0rem
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/img49.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center  
+
+.bg10        
+  background-color: #C1F5EC
+
+.color-fondo-text1
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 35%
+    bottom: 0
+    left: 74%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #C7E3FC
+
+.tarjeta.color-acento-contenido
+  background-color:#FDDF6E !important
+
+figcaption
+  opacity: 0    

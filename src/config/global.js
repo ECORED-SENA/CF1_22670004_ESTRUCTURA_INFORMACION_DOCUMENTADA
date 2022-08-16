@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Información documentada y elaboración de diagnóstico',
+    descripcionCurso:
+      'La recopilación de información conlleva el diseño de estrategias y actividades en los procesos de manufactura con la construcción del diagnóstico. Busca establecer filosofías de mejora continua, donde se reconoce el Sistema de gestión de la calidad, e integra el ciclo (P.H.V.A), conectando las áreas de trabajo con canales de comunicación pertinentes a los servicios o productos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
       },
     ],
   },
@@ -32,14 +41,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Información documentada',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Documentar procesos y procedimientos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Registro de la información',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Indicadores de gestión',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,15 +69,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Diagnósticos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipos de diagnósticos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Plan de implementación',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Definiciones de actividades',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +135,101 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'La Información Documentada',
+      referencia:
+        'García-Morales, E. (2017). Información documentada y gestión del conocimiento en la ISO 9001:2015: aportación del profesional de la información. Anuario ThinkEPI, 11, 269–273.  ',
+      tipo: 'Libro',
+      link:
+        'https://thinkepi.profesionaldelainformacion.com/index.php/ThinkEPI/article/view/thinkepi.2017.52',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Indicadores de gestión',
+      referencia: 'Portugal, V. (2017). Diagnóstico empresarial.',
+      tipo: 'Libro',
+      descarga: '/downloads/diagnostico_empresarial.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Andon',
+      significado:
+        'Sistema de gestión visual en planta de producción que indica el estado de esta, avisa cuando se necesita ayuda y permite a los colaboradores parar el proceso de producción.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Actividad económica',
+      significado:
+        'Para satisfacer necesidades y expectativas, se requiere hacer ciertos procedimientos que permitan la producción y el intercambio de bienes y servicios. A esa misión, se le denomina actividad económica.',
+    },
+    {
+      termino: 'Área de trabajo',
+      significado:
+        'Espacio o sitio destinado para que se realicen funciones de transformación de materiales en productos, o para prestar un servicio.',
+    },
+    {
+      termino: 'Flujo continuo',
+      significado:
+        'Proceso equilibrado donde el flujo de las prendas sigue una secuencia operacional con cambios rápidos de referencia, contando siempre con los mínimos recursos para obtener la producción deseada.',
+    },
+    {
+      termino: 'Información documentada',
+      significado:
+        'Información que una organización tiene que documentar y mantener.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'El conjunto de habilidades gerenciales o de las directivas que un individuo tiene para influir en la forma de ser y actuar de las personas o en un grupo de trabajo determinado.',
+    },
+    {
+      termino: 'Manual de calidad',
+      significado:
+        'Documento que específica el sistema de gestión de la calidad en la organización.',
+    },
+    {
+      termino: 'Plan de Mejora',
+      significado:
+        'Esta actividad está centrada en realizar una propuesta para mejorar el método actual de producción.',
+    },
+    {
+      termino: 'Sistema de gestión de calidad',
+      significado:
+        'Es la gestión de servicios que se ofrecen, y que incluye planear, controlar, y mejorar, aquellos elementos de una organización.',
+    },
+    {
+      termino: 'Perfil',
+      significado:
+        'El perfil define características específicas para ser seleccionado con un fin.',
+    },
+    {
+      termino: 'Talento Humano',
+      significado:
+        'Constituido por las personas que participan en la ejecución y coordinación de las actividades empresariales en una organización.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Sevilla Tendero, J. (2019). Auditoría de los sistemas integrados de gestión: ISO 9001:2015, ISO 14001:2015, ISO 45001:2018. Fundación Confemetal.',
+    },
+    {
+      referencia:
+        'UNE-ISO 10005:2018: (2019). Sistema de gestión de la Calidad, Directrices para los planes de calidad. AENOR. ',
+    },
+    {
+      referencia:
+        'UNE-ISO 10002:2018: (2018). Gestión de la calidad, Satisfacción del cliente, Directrices para el tratamiento de las quejas en las organizaciones. AENOR.',
+    },
+    {
+      referencia:
+        'UNE-ISO 10006:2018: (2018). Gestión de la calidad, Directrices para la gestión de la calidad en los proyectos. AENOR. ',
+    },
+    {
+      referencia:
+        'López Lemos, P. (2016). Novedades ISO 9001:2015. Fundación Confemetal.',
+    },
+    {
+      referencia:
+        'Curso de gestión de calidad. (2015). Normas ISO. Oviedo: FORMASTUR.',
     },
   ],
   creditos: {
@@ -144,6 +247,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Víctor Manuel   Isaza Córdoba',
+        cargo: 'Experto técnico',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Leydy Jhuliana Jaramillo Mejía',
+        cargo: 'Diseñadora instruccional ',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Asesora metodológica',
+        centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -153,7 +276,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yerson Fabian Zarate Saavedra',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -165,7 +288,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edward Leonardo Pico Cabra',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
