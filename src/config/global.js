@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Información documentada y elaboración de diagnóstico',
     descripcionCurso:
-      'La recopilación de información conlleva el diseño de estrategias y actividades en los procesos de manufactura con la construcción del diagnóstico. Busca establecer filosofías de mejora continua, donde se reconoce el Sistema de gestión de la calidad, e integra el ciclo (P.H.V.A), conectando las áreas de trabajo con canales de comunicación pertinentes a los servicios o productos.',
+      'La recopilación de información conlleva el diseño de estrategias y actividades en los procesos de manufactura con la construcción del diagnóstico. Busca establecer filosofías de mejora continua, donde se reconoce el Sistema de gestión de la calidad, e integra el ciclo P.H.V.A, conectando las áreas de trabajo con canales de comunicación pertinentes a los servicios o productos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Información documentada',
+        titulo: 'La información documentada',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -209,6 +209,10 @@ export default {
   referencias: [
     {
       referencia:
+        'Sangüesa Sánchez, M., Mateo R., Ilzarbe, L. (2019) Teoría y práctica de la calidad. 2ª edición revisada y actualizada. Paraninfo.',
+    },
+    {
+      referencia:
         'Sevilla Tendero, J. (2019). Auditoría de los sistemas integrados de gestión: ISO 9001:2015, ISO 14001:2015, ISO 45001:2018. Fundación Confemetal.',
     },
     {
@@ -294,7 +298,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Maria Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

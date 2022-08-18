@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 1
-      h1 Información documentada
+      h1 La información documentada
       
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.my-3.cajon.color-primario.p-4.jt(data-aos="flip-down")
@@ -13,7 +13,7 @@
       .col-lg-4.my-3
         img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img1.png', alt='')      
       .col-lg-4.my-3
-        p(data-aos="fade-down").mb-0 Cuando se refiere al término de calidad, desde su contexto de aplicación se fundamenta en el concepto de documentar la información principal, entendida como aquellas acciones o actividades que clasifican operaciones, procesos, procedimientos ociosos o superfluos que no son significativos para el buen desarrollo de la productividad en la empresa, es decir se concluye que la reducción de residuos es un mecanismo efectivo para incrementar la rentabilidad. 
+        p(data-aos="fade-down").mb-0 Aplicar un sistema de gestión de la calidad implica realizar trazabilidad a toda la infraestructura técnica en la empresa, con base en el uso de indicadores de gestión, lo cual se constituye en un tema vital para eliminar los residuos de información  que no se requiere. Inicialmente la identificación de situaciones que generan valor no agregado  al proceso lleva al pleno convencimiento de la aplicación del sistema de gestión de la calidad,   para posteriormente  identificar los puntos neurálgicos y  aportar evidencias documentadas, y así establecer que es importante planear y planificar,  logrando  cambios organizacionales en los procesos de diseño, desarrollo y manufactura a partir de las prácticas amigables  de trabajo. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
@@ -64,7 +64,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4(data-aos="fade-down").mb-1 Técnicas de investigación documental
-                  p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática indicadores de gestión se debe revisar el siguiente material bibliográfico.
+                  p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática indicadores de gestión se debe revisar el siguiente material bibliográfico leer las p. 20 - p. 44 en Rizo, J. (2015). .
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/tecnicas_investigacion_documental.pdf')" target="_blank")
                     span.ts Descargar
@@ -347,7 +347,7 @@
     .bg4
       Separador 
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2 1.2 Registro de la información. 
+        h2 1.2 Registro de la información 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6 
           img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img36.png', alt='')
@@ -380,7 +380,7 @@
               .col-2 
                 img.img-a.img-t(data-aos='flip-down')(src='@/assets/curso/temas/img42.svg', alt='')
               .col-10
-                p(data-aos="fade-down").mb-0 Las herramientas deben ser afianzadas en el diagnóstico y ejecución de un plan de actividades, fortalezcan la participación integral de los aprendices, futuros profesionales en estos procesos.
+                p(data-aos="fade-down").mb-0 Tendrá presente herramientas, que afianzadas en el diagnóstico y ejecución de un plan de actividades, fortalezcan la participación integral de los aprendices, futuros profesionales en estos procesos. 
             hr
           .col-lg-5
             img.img-a.img-t.my-3(data-aos='zoom-in')(src='@/assets/curso/temas/img38.png', alt='')
@@ -391,53 +391,55 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6 
-        img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img36.png', alt='')
+        img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img16.png', alt='')
       .col-lg-6            
         p(data-aos="fade-down") Por medio de los indicadores de gestión generados en el registro de la información, se pueden conocer los resultados que está obteniendo la empresa con la implementación del sistema de gestión de la calidad. Los índices deben reflejar con precisión el esfuerzo que se realiza, para ser observados  frecuentemente en el proceso del desarrollo del programa e ir implementando nuevas estrategias en función de los resultados para potenciar los objetivos esperados.
         .cajon.color-secundario.p-4.jt(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Los objetivos propuestos deben integrarse a la planeación estratégica de las corporaciones, y deben ser conocidos, entendidos y permanentemente presentados a todo el personal de la compañía, para unir esfuerzos y alcanzar dichas metas. Los indicadores de gestión son instrumentos para: 
     .bg8
-      SlyderG.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 1.] Gerenciar con alto porcentaje de efectividad. 
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 2.] Indiscutiblemente vienen involucrados en la toma de decisiones.
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 3.] Los indicadores finiquitan los procesos para mostrar siempre resultados. 
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 4.] Centra sus mediciones en mostrar eficacias y eficiencias del proceso.
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 5.] Culturiza al equipo humano en mostrar resultados. 
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 6.] Acompaña la planeación estratégica de la compañía.
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 7.] Genera trazabilidad e integralidad en los procesos. 
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
-          .tarjeta.bg7
-            .p-4.mt-4.text-center
-              p.mb-0 #[b 8.] Volverse articulador, alinear conceptos y organiza el engranaje de todas las áreas de la organización para el alcance de la planeación estratégica.
+      .row.justify-content-center.align-items-center
+        .col-lg-12.up     
+          SlyderG.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 1.] Gerenciar con alto porcentaje de efectividad. 
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 2.] Indiscutiblemente vienen involucrados en la toma de decisiones.
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 3.] Los indicadores finiquitan los procesos para mostrar siempre resultados. 
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 4.] Centra sus mediciones en mostrar eficacias y eficiencias del proceso.
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 5.] Culturiza al equipo humano en mostrar resultados. 
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 6.] Acompaña la planeación estratégica de la compañía.
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 7.] Genera trazabilidad e integralidad en los procesos. 
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/img44.svg', alt='AvatarTop')
+              .tarjeta.bg7
+                .p-4.mt-4.text-center
+                  p.mb-0 #[b 8.] Volverse articulador, alinear conceptos y organiza el engranaje de todas las áreas de la organización para el alcance de la planeación estratégica.
                             
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9 
