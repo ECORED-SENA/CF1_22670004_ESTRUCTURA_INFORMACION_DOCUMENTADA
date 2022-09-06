@@ -20,24 +20,27 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/img2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 #[b De esta manera en la tesis de Gómez Rodríguez, se expresa que:]
+        h4.mb-0 #[b De esta manera en la tesis de Gómez Rodríguez, se expresa que:]
           br
           br
-          | Los Sistemas de gestión de la calidad. Modelos de gestión de calidad permiten a las organizaciones ventajas competitivas en los diferentes mercados o gremios que existen, pero además son una guía que sirve a las organizaciones para realizar un diagnóstico en los servicios o productos que ofrecen e implementar planes de acción que contribuyan a la mejora continua (p. 28).  
+        p Los Sistemas de gestión de la calidad. Modelos de gestión de calidad permiten a las organizaciones ventajas competitivas en los diferentes mercados o gremios que existen, pero además son una guía que sirve a las organizaciones para realizar un diagnóstico en los servicios o productos que ofrecen e implementar planes de acción que contribuyan a la mejora continua (p. 28).  
 
     p(data-aos="fade-down").mb-5 Lo que permite comprender el adecuado proceso que se requiere para obtener los resultados esperados, lo que a su vez lleva a implementar acciones como el ciclo P.H.V.A. basado en la técnica de la integralidad de la calidad que evidencia la interacción entre las áreas que generan algunos beneficios, como los que se comparten a continuación.
 
     .row.justify-content-center.align-items-srtetch.mb-5
-      .col-lg-4.my-3.bg1.p-0(data-aos="fade-down")
-        img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img3.png', alt='')       
-        p.p-4.mb-0.text-center Facilita la cultura de mejoramiento continuo donde la reiteración de eventos se traduce en competitividad.
-      .col-lg-4.my-3.bg2.p-0(data-aos="fade-down")
-        img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img4.png', alt='')       
-        p.p-4.mb-0.text-center Asegura menores costos.
+      .col-lg-4.my-3
+        .bg1.p-0.h-100(data-aos="fade-down")
+          img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img3.png', alt='')       
+          p.p-4.mb-0.text-center Facilita la cultura de mejoramiento continuo donde la reiteración de eventos se traduce en competitividad.
+      .col-lg-4.my-3
+        .bg2.p-0.h-100(data-aos="fade-down")
+          img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img4.png', alt='')       
+          p.p-4.mb-0.text-center Asegura menores costos.
 
-      .col-lg-4.my-3.bg1.p-0(data-aos="fade-down")
-        img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img5.png', alt='')       
-        p.p-4.mb-0.text-center Genera mayor competitividad y procesos más flexibles y eficaces de productividad. 
+      .col-lg-4.my-3
+        .bg1.p-0.h-100(data-aos="fade-down")
+          img.img-a.p-0(data-aos="zoom-in")(src='@/assets/curso/temas/img5.png', alt='')       
+          p.p-4.mb-0.text-center Genera mayor competitividad y procesos más flexibles y eficaces de productividad. 
 
     p(data-aos="fade-down").mb-5 El reto en la implementación de matrices de recopilación de información es generar una cultura organizacional que suscite la generación de ideas y la reestructuración y ajuste en los procesos para la  continuidad de sistemas de capacitación con tecnologías futuras a cada uno de los integrantes de la organización. 
 
@@ -240,7 +243,7 @@
 
             .col-10
               p(data-aos="fade-down").mb-0 Diagnóstico de la situación actual de la organización, allí se analiza los puntos que deben ajustarse para la adecuada implementación de la norma. 
-
+          .hr.my-4.ms-4.d-block.d-lg-none(data-aos="fade-down") 
         .col-lg-6
           .row
             .col-2
@@ -351,12 +354,12 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6 
           img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img36.png', alt='')
-        .col-lg-6            
+        .col-lg-6.my-3            
           p(data-aos="fade-down") Para reconocer el registro de la información, se conceptualiza todo un conjunto de instrucciones o recursos utilizados para documentar una actividad específica o determinada, en especial cuando se requieren datos precisos, oportunos y de buenas prácticas investigativas, pilar basado en el trabajo colaborativo para conservar y mejorar la confianza en la información que brinda el  equipo involucrando en acciones  de respeto hacia las condiciones de la  operación y conservación de las áreas de trabajo, generando una cultura de áreas libres de desorden, suciedad y libres de contaminación en todos los sentidos. 
 
           p(data-aos="fade-down") Se busca integrar las acciones de los líderes y de los colaboradores contribuyendo articuladamente a la eficacia del equipo.
 
-          .cajon.color-primario.p-4.jt(data-aos="flip-down")
+          .cajon.color-primario.p-4.jt.bgs(data-aos="flip-down")
             p(data-aos="fade-down").mb-0 Cuando la empresa diseña un completo Plan maestro de registro de la información, proporciona los protocolos necesarios para establecer fechas, determinar tareas, asignar actividades,  desarrollar procesos y procedimientos indispensables. 
 
       p(data-aos="fade-down").mb-5 De esta manera, se busca generar requerimientos que suplan las necesidades de los clientes, tanto internos como externos; por ello, a continuación se describen los aspectos que deben ser tenidos en cuenta:
@@ -392,7 +395,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6 
         img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img16.png', alt='')
-      .col-lg-6            
+      .col-lg-6.my-3             
         p(data-aos="fade-down") Por medio de los indicadores de gestión generados en el registro de la información, se pueden conocer los resultados que está obteniendo la empresa con la implementación del sistema de gestión de la calidad. Los índices deben reflejar con precisión el esfuerzo que se realiza, para ser observados  frecuentemente en el proceso del desarrollo del programa e ir implementando nuevas estrategias en función de los resultados para potenciar los objetivos esperados.
         .cajon.color-secundario.p-4.jt(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Los objetivos propuestos deben integrarse a la planeación estratégica de las corporaciones, y deben ser conocidos, entendidos y permanentemente presentados a todo el personal de la compañía, para unir esfuerzos y alcanzar dichas metas. Los indicadores de gestión son instrumentos para: 

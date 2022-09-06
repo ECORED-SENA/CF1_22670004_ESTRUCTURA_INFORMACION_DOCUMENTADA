@@ -71,17 +71,22 @@
 .jt
   display: flex
   justify-content: center
-  align-items: center  
+  align-items: center
+
+.bgs
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3)     
 
 .bg1
   background-color: #A6D3FC 
-  border: 10px solid white
-  border-radius: 30px   
+  border-radius: 30px
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3)   
 .bg2
   background-color: #C2F3EB 
-  border: 10px solid white
-  border-radius: 30px  
+  border-radius: 30px
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3)  
 
+.brad
+  border: 10px solid white 
 .crd
   width: 100%
   position: relative
@@ -117,6 +122,7 @@
 
 .cajon.color-secundario
   background-color: #C2F3EB
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3) 
 .cajon.color-secundario::before
   background-color: #8AE3D6
 
@@ -248,7 +254,10 @@
   color: #0082EF
 
 .lista-ol--cuadro__vineta
-  background-color:  #0082EF   
+  background-color:  #0082EF
+
+.lista-ol--cuadro__vineta span
+  font-weight: bold !important       
 
 .bg9
   position: relative
@@ -293,3 +302,25 @@
 
 figcaption
   opacity: 0    
+
+.tarjeta--azul
+  background-color: #F6F6F6
+
+.tarjeta.tarjeta--azul.acordion__activo 
+  background-color: #CBE5FE 
+
+@media (max-width: $bp-max-xs)
+  .img-infografica__item, .img-infografica-b__item
+    width: 3.5% 
+  .img-infografica__item__numero
+    font-size: .7em      
+  .img-infografica__content .img-infografica__item:first-child
+    top: 19.5% !important
+  .img-infografica__content .img-infografica__item:nth-child(0n+2)
+    top: 29.8% !important
+  .img-infografica__content .img-infografica__item:nth-child(0n+3)
+    top: 40% !important
+  .img-infografica__content .img-infografica__item:nth-child(0n+4)
+    top: 50.8% !important 
+  .img-infografica__content .img-infografica__item:nth-child(0n+5)
+    top: 61% !important     

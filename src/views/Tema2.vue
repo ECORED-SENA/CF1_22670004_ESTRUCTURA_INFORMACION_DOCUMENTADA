@@ -120,7 +120,7 @@
           span.b #[b garantizar la calidad de toda la gestión administrativa y logística, ] 
           span enmarcada en la reducción de la variabilidad y trazabilidad de los indicadores de gestión, elaboran listas de chequeo permanente sobre el cumplimiento de los objetivos.
           
-        .cajon.color-primario.p-4.jt(data-aos="flip-down")
+        .cajon.color-primario.p-4.jt.bgs(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Diseñar un excelente plan de acción arroja  como resultado la disminución de  la variabilidad de los procesos con el objetivo de reorientarlos, estabilizarlos y proveerlos de situaciones que los mantengan en línea, estructurar un sistema de gestión de la calidad  es el fundamento de todas las buenas prácticas de manufactura y la prestación de servicios la calidad,  hoy en día en el mundo, es la pionera sostenible de las empresas, con el tiempo, estas estrategias metodológicas han  sido extendidas y redireccionadas a todos los  diferentes sectores que la industria posee al interior  dando excelentes resultados.
 
     p(data-aos="fade-down").mb-5 El S.G.C. está presente en absolutamente todos los conceptos teóricos funcionales, organizacionales que gracias a la experiencia en un gran número de empresas del sector productivo se presenta de una manera práctica, incluyendo casos de éxito con herramientas de soporte que han sido probadas en otras empresas de manufactura y de servicios así como las recomendaciones y consejos facilitando su aplicación en proyectos concretos y la obtención de resultados, la metodología que lleva el S.G.C presentada a lo largo de este documento corresponde a estándares de la formación y capacitación que se brindan por diferentes actores en el medio. 
@@ -161,24 +161,24 @@
           figcaption Leyenda de la imagen
 
       .tarjeta.color-acento-contenido.p-3(x="69%" y="22.5%" numero="+")
-        .h5.mb-2 | 1. Asignación de actividades
+        .h4.mb-2 | 1. Asignación de actividades
         p Se pueden imprimir en un cronograma. Es un elemento fundamental dentro de la cadena de capacitación integral en la medida que constituye el primer acercamiento del gestor que elaboró el diagnóstico.   
 
       .tarjeta.color-acento-contenido.p-3(x="69%" y="34.5%" numero="+")
-        .h5.mb-2 | 2. Elaboración del plan de acción
+        .h4.mb-2 | 2. Elaboración del plan de acción
         p Se aplica a toda la infraestructura humana, tecnológica digital y ocupacional de la compañía,  a través del mismo,  se brindan  procesos logísticos,  pautas importantes en cuanto a las condiciones de conveniencia, marco disciplinario y normativo.
 
       .tarjeta.color-acento-contenido.p-3(x="69%" y="46.5%" numero="+")
-        .h5.mb-2 | 3. Aplicación de mejoras
+        .h4.mb-2 | 3. Aplicación de mejoras
         p Para fortalecer el sentido de pertenencia de todo el equipo de líderes  y colaboradores.
 
       .tarjeta.color-acento-contenido.p-3(x="69%" y="58.5%" numero="+")
-        .h5.mb-2 | 4. Observación del resultado
+        .h4.mb-2 | 4. Observación del resultado
         p A la hora de disminuir los índices de variabilidad del proceso  para el desarrollo de las actividades planteadas en los cronogramas, el equipo de S.G.C debe impartir una buena  inducción de este. 
    
 
       .tarjeta.color-acento-contenido.p-3(x="69%" y="70.5%" numero="+")
-        .h5.mb-2 | 5. Estrategias didácticas activas
+        .h4.mb-2 | 5. Estrategias didácticas activas
         p Que permitan trabajar adecuadamente el desarrollo de todos los ítems.
 </template>
 
