@@ -288,8 +288,7 @@ export default {
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión de guión audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'María Carolina Tamayo López',
@@ -298,7 +297,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yicelly Estefania Mesa Silva',
+        nombre: 'Estefani Daniela Gallo Cortés',
         cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -310,7 +309,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Ludwyng Corzo García',
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
