@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica CF1" />
+              <option name="title_text" value="Actividad_did&amp;#225;ctica ##CF1" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
