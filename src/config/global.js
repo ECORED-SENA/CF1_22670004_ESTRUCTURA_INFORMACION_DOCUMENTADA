@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Información documentada y elaboración de diagnóstico',
     descripcionCurso:
-      'La recopilación de información conlleva el diseño de estrategias y actividades en los procesos de manufactura con la construcción del diagnóstico. Busca establecer filosofías de mejora continua, donde se reconoce el Sistema de gestión de la calidad, e integra el ciclo P.H.V.A, conectando las áreas de trabajo con canales de comunicación pertinentes a los servicios o productos.',
+      'La recopilación de información conlleva el diseño de estrategias y actividades en los procesos de manufactura con la construcción del diagnóstico. Busca establecer filosofías de mejora continua, donde se reconoce el Sistema de gestión de la calidad, e integra el ciclo P.H.V.A., conectando las áreas de trabajo con canales de comunicación pertinentes a los servicios o productos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -75,7 +75,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Tipos de diagnósticos',
+            titulo: 'Tipo de diagnósticos',
             hash: 't_2_1',
           },
           {
@@ -87,7 +87,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Definiciones de actividades',
+            titulo: 'Definición de actividades',
             hash: 't_2_3',
           },
         ],

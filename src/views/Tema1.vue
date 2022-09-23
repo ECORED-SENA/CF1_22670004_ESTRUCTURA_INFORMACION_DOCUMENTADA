@@ -48,7 +48,7 @@
       .col-lg-9 
         .row.justify-content-center.align-items-center
           .col-lg-8
-            p(data-aos="fade-down") La implementación de herramientas de un Sistema integral de la calidad  como gestión integral de la gerencia de calidad, conserva el buen estado dela planeación estratégica de la compañía, así como  políticas, estrategias, misión, visión,  limpieza de los procesos y procedimientos de trabajo; con base en lo cual 
+            p(data-aos="fade-down") La implementación de herramientas de un Sistema integral de la calidad  como gestión integral de la gerencia de calidad, conserva el buen estado de la planeación estratégica de la compañía, así como  políticas, estrategias, misión, visión,  limpieza de los procesos y procedimientos de trabajo; con base en lo cual 
               span.bgy se obtiene como resultado la estandarización del trabajo, creación de procesos y procedimientos simplificados, flujo continuo de manufactura y servicios;  haciendo que este sistema  de calidad  sea uno de los más llamativos en el entorno de los sectores productivos.                  
           .col-lg-4.my-3
             img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img6.png', alt='')      
@@ -67,7 +67,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4(data-aos="fade-down").mb-1 Técnicas de investigación documental
-                  p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática indicadores de gestión se debe revisar el siguiente material bibliográfico leer las p. 20 - p. 44 en Rizo, J. (2015). .
+                  p(data-aos="fade-down").mb-0 Para mayor ilustración de la temática sobre indicadores de gestión se debe revisar el siguiente material bibliográfico. Leer las p. 20 - p. 44 en Rizo, J. (2015). .
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/tecnicas_investigacion_documental.pdf')" target="_blank")
                     span.ts Descargar
@@ -86,7 +86,7 @@
               .col-lg-9          
                 .text-white.mb-0 
                   h5 1. Ficha técnica documental 
-                  p.mb-0 Matriz que expresa la información pertinente que desarrolla un software especializado, una base de datos, una actividad, una tarea un proceso un procedimiento enumera recomendaciones y sugerencias de usos. 
+                  p.mb-0 Matriz que expresa la información pertinente que desarrolla un <i>software</i> especializado, una base de datos, una actividad, una tarea, un proceso, un procedimiento enumera recomendaciones y sugerencias de usos. 
               .col-lg-3.my-3          
                 img.img-a.img-t(src='@/assets/curso/temas/img9.svg', alt='')
 
@@ -95,7 +95,7 @@
               .col-lg-9          
                 .text-white.mb-0 
                   h5 2. Base de datos
-                  p.mb-0 Se convierten en el registro grupal de la información documentada. soporte técnico para establecer el diseño de software especializados, reseñas escritas y digitales que elevan el valor para las corporaciones de la información.
+                  p.mb-0 Se convierten en el registro grupal de la información documentada. Soporte técnico para establecer el diseño de <i>software</i> especializados, reseñas escritas y digitales que elevan el valor para las corporaciones de la información.
               .col-lg-3.my-3          
                 img.img-a.img-t(src='@/assets/curso/temas/img12.svg', alt='')   
 
@@ -141,7 +141,7 @@
               .col-lg-9          
                 .text-white.mb-0 
                   h5 7. Archivo digital o Documento manual 
-                  p.mb-0 Medio impreso o digital, generalmente se registra información de primera mano o temporal en el están contenidos datos correlacionados a tareas diarias quién debe aplicarlos y cuándo deben aplicarse a un proyecto, proceso, producto o contrato específico.
+                  p.mb-0 Medio impreso o digital, generalmente se registra información de primera mano o temporal, en él están contenidos datos correlacionados a tareas diarias, quién debe aplicarlos y cuándo deben aplicarse a un proyecto, proceso, producto o contrato específico.
               .col-lg-3.my-3          
                 img.img-a.img-t(src='@/assets/curso/temas/img17.svg', alt='')   
       .col-lg-4
@@ -326,7 +326,7 @@
               img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img32.svg', alt='') 
 
             .col-10
-              p(data-aos="fade-down").mb-0 Auditoría externa, para llegar a esta, es importante realizar la preauditoria, la cual puede llevar a detectar aquellos aspectos que requieren mejora antes de presentarse la auditoría de certificación. 
+              p(data-aos="fade-down").mb-0 Auditoría externa, para llegar a esta, es importante realizar la preauditoría, la cual puede llevar a detectar aquellos aspectos que requieren mejora antes de presentarse la auditoría de certificación. 
 
       .row.justify-content-start.align-items-top
         .col-lg-6
@@ -449,7 +449,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8
             p(data-aos="fade-down") Al contextualizar los temas relacionados con indicadores de gestión, estratégicamente  los orienta a la búsqueda minuciosa de parámetros que entorpecen los sistemas logísticos de los  procesos, 
-              span.b #[b un buen sistema de trazabilidad  direcciona y  detecta las malas prácticas de manufactura,] 
+              span.b #[b un buen sistema de trazabilidad  direcciona y  detecta las malas prácticas de manufactura, ] 
               span integra  el manejo numérico para que enfocarse en que se conviertan en líderes  constructivos y no en  líderes  mecanizados como lo que ya existe, permitiendo que las áreas se estabilicen y provean resultados favorables para la empresa.                  
           .col-lg-4.my-3
             img.img-a.img-t(data-aos='zoom-in')(src='@/assets/curso/temas/img45.png', alt='')      

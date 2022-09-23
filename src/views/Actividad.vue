@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 ISO 9001:201
+          h2 ISO 9001:2015
         p.mb-4 Reconocer información documentada para el Sistema de Gestión de la Calidad de acuerdo con ISO 9001:2015
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso verdadero
+              p.fw-bold.mb-0 Falso o verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
